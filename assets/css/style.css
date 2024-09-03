@@ -1,0 +1,102 @@
+@font-face {
+    font-family: "Meiland Gorgeous";
+    src: url(../fonts/Meiland\ Gorgeous.ttf);
+}
+
+* {
+    padding: 0;
+    margin: 0;
+    box-sizing: border-box;
+    font-family: "Roboto", sans-serif;
+}
+
+body {
+    padding: auto;
+    margin: auto;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    flex-direction: column;
+    min-height: 100vh;
+    background-color: #CE96A6;
+}
+
+
+.container {
+    display: flex;
+    justify-content: space-between;
+    width: 60%;
+    height: 350px;
+    max-width: 700px;
+    background: rgb(255, 255, 255);
+    border-radius: 10px;
+    padding: 20px;
+    box-shadow: 7px 9px 15px 0px rgba(0, 0, 0, 0.40);
+    text-align: center;
+    overflow: hidden;
+}
+
+
+.sectionUno {
+    margin: 30px 30px;
+}
+
+.sectionDos h2 {
+    margin: 10px 40px;
+}
+
+#chart {
+    margin: 30px;
+    width: 200%;
+    margin-left: 30px;
+    height: 300px;
+}
+
+select,
+button,
+input {
+    width: 12rem;
+    height: 2.5rem;
+    padding-left: 5px;
+    font-size: 15px;
+    border: 1px solid #bbb;
+    border-radius: 4px;
+    color: #000000;
+    outline: none;
+    cursor: pointer;
+    background-color: #ffffff;
+}
+
+button {
+    margin-top: 1rem;
+    display: flex;
+    justify-content: center;
+    flex-direction: column;
+    align-items: center;
+    background-color: #ffffff;
+    border-radius: 9999px;
+}
+
+
+
+.dolarOeuro, .resultado {
+    margin-top: 1rem;
+}
+
+
+hr {
+    border: 1px solid rgba(148, 148, 148, 0.36);
+    margin: 20px 1px 20px 1px;
+}
+
+
+h1 {
+    font-family: "Meiland Gorgeous";
+    color: #ffffff;
+    font-size: 50px;
+}
+
+h2 {
+    font-size: 20px;
+    font-weight: lighter;
+}

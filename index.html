@@ -1,0 +1,53 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <link rel="preconnect" href="https://fonts.googleapis.com">
+    <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+    <link
+        href="https://fonts.googleapis.com/css2?family=Inter:ital,opsz,wght@0,14..32,100..900;1,14..32,100..900&family=Poppins&family=Roboto&display=swap"
+        rel="stylesheet">
+
+    <link rel="stylesheet" href="./assets/css/style.css">
+    <title>APIs</title>
+</head>
+
+<body>
+    <div>
+        <h1>CONVERSOR DE MONEDAS</h1>
+        <hr>
+    </div>
+    <div class="container">
+        <section class="sectionUno">
+            <div class="pesosChilenos">
+                <h2>Monto en pesos CLP</h2>
+                <input type="text" id="inputPesos">
+            </div>
+            <div class="dolarOeuro">
+                <h2>Moneda a convertir </h2>
+                <select id="monedaSelector">
+                    <option value="Dolar">Dólar</option>
+                    <option value="Euro">Euro</option>
+                </select>
+                <button id="btn">Buscar</button>
+            </div>
+            <div class="resultado">
+                <p>Resultado: <span id="result"></span></p>
+            </div>
+        </section>
+
+        <section class="sectionDos">
+            <h2>Historial de Moneda ⬇️</h2>
+            <div class="grafico">
+                <canvas id="chart"></canvas>
+            </div>
+        </section>
+    </div>
+
+    <script src="https://cdn.jsdelivr.net/npm/chart.js"></script>
+    <script src="./assets/js/script.js"></script>
+</body>
+
+</html>
